@@ -1,3 +1,4 @@
 flask
 certifi
 urllib3[secure]
+gunicorn
