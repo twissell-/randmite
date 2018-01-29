@@ -5,7 +5,7 @@ import pprint
 import time
 from abc import ABCMeta
 
-from utils import (
+from w2w.utils import (
     dic_to_json,
     response_to_dic
 )

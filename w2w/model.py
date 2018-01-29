@@ -1,4 +1,4 @@
-from core import (
+from w2w.core import (
     Entity,
     Resource
 )

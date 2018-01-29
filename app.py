@@ -6,10 +6,8 @@ from flask import (
     render_template
 )
 
-from core import Resource
-from model import User
-
-import logging
+from w2w.core import Resource
+from w2w.model import User
 
 logging.basicConfig(
     format='%(levelname)s - %(name)s ln.%(lineno)d - %(message)s',
