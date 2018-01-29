@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block content %}
+  <div class="starter-template">
+    <p>{{ username }}, here is your recomendation</p>
+    <h1>{{ media['title']['userPreferred'] }}</h1>
+    <div class="row">
+      <div class="col">
+      <p><img src="{{ media['coverImage']['large'] }}" class="img-responsive" alt="Cinque Terre"></p>
+      </div>
+      <div class="col">
+        <p>
+          {{ media['description'] | safe }}
+        </p>
+      </div>
+    </div>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+    </p>
+  </div>
+{% endblock %}
